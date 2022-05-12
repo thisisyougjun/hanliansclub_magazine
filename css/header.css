@@ -13,6 +13,7 @@
     margin-right: 12px;
 }
 
+
 .p_title{
     color: white;
     line-height: 51px;
@@ -34,15 +35,10 @@
 }
 .Menu_round{
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 51px;
+    height: 51px;
     background-color: white;
-    border-radius: 20px;
-    line-height: 51px;
-    position: absolute;
-    left: 62%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    border-radius: 40px;
 }
 
 .Header_Menu{
