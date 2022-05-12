@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    background-color: black;
+}
+
+.test{
+    margin: 0 auto;
+
+    width: 1024px;
+    height: 768px;
+}

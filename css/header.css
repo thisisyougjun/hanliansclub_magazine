@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Main_header{
+    width: 100%;
+    height: 127px;
+}
+
+.logo_svg{
+    float: left;
+    margin-right: 12px;
+}
+
+.p_title{
+    color: white;
+    line-height: 51px;
+    font-size: 27px;
+    position: relative;
+}
+
+.header_title_kr{
+    display: none;
+}
+
+.p_title:hover .header_title_kr{
+    color: white;
+    display: block;
+}
+
+.p_title:hover .header_title_en{
+    display: none;
+}
+.Menu_round{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 51px;
+    position: absolute;
+    left: 62%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Header_Menu{
+    position: relative;
+    font-size: 27px;
+    color: white;
+    line-height: 51px;
+    text-align: end;
+
+
+    /*width: 250px;
+    margin-left: 61%;*/
+}
+
