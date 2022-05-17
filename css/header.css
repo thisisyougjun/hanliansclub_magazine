@@ -13,15 +13,18 @@
 
 .logo_svg{
     float: left;
-    margin-right: 12px;
 }
-
 
 .p_title{
     color: white;
     line-height: 51px;
     font-size: 27px;
-    position: relative;
+}
+
+
+
+@media (max-width: 576px) {
+
 }
 
 .header_title_kr{
@@ -36,22 +39,12 @@
 .p_title:hover .header_title_en{
     display: none;
 }
-.Menu_round{
-    float: left;
-    width: 51px;
-    height: 51px;
-    background-color: white;
-    border-radius: 40px;
-}
 
 .Header_Menu{
-    position: relative;
     font-size: 27px;
     color: white;
     line-height: 51px;
     text-align: end;
-
-
     /*width: 250px;
     margin-left: 61%;*/
 }
@@ -59,4 +52,9 @@
 .hr{
     color: white;
     height: 3px;
+}
+
+.px-6{
+    padding-left: 1rem;
+    padding-right: 0px;
 }
