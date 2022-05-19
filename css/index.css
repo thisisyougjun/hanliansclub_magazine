@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-    color: white;
 }
 
 body{
@@ -20,7 +19,6 @@ body{
     margin-top: 41px;
 
 }
-
 
 
 .logo_svg{
@@ -93,7 +91,8 @@ body{
 .contents_block{
         width:400px;
         height:448px;
-    background-color: white;
+        background-color: white;
+    color: white;
 }
 
 @media(max-width: 576px) {
